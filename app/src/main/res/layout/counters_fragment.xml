@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.lzm.KnittingHelp.counters.CountersFragment">
+
+    <com.lzm.KnittingHelp.counters.components.CounterCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp" />
+
+    <com.lzm.KnittingHelp.counters.components.CounterCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp" />
+
+    <com.lzm.KnittingHelp.counters.components.CounterCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp" />
+</LinearLayout>

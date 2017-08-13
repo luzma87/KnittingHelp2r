@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="button" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="button_counter_green" parent="button">
+        <item name="android:backgroundTint">@color/green</item>
+        <item name="android:tint">@color/text_primary</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="button_counter_red" parent="button">
+        <item name="android:backgroundTint">@color/red</item>
+        <item name="android:tint">@color/text_primary</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="button_neutral" parent="button">
+        <item name="android:backgroundTint">@color/counter_button</item>
+        <item name="android:tint">@color/text_primary</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="button_primary" parent="button">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:tint">@color/text_light</item>
+        <item name="android:textColor">@color/text_light</item>
+    </style>
+    <style name="button_secondary" parent="button">
+        <item name="android:backgroundTint">@color/primary_light</item>
+        <item name="android:tint">@color/text_primary</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="section_name" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+</resources>

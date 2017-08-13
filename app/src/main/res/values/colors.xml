@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <color name="accent">#ff4081</color>
+
+    <color name="counter_button">#CFD8DC</color>
+    <color name="counter_header">#dddddd</color>
+
+    <color name="divider">#BDBDBD</color>
+
+    <color name="element_part_active_background">#bdbdbd</color>
+    <color name="element_part_active_border">#FFFFFF</color>
+    <color name="element_part_default_background">#FFFFFF</color>
+    <color name="element_part_default_border">#FFFFFF</color>
+    <color name="element_section_active_background">#fce4ec</color>
+    <color name="element_section_active_border">#ec407a</color>
+    <color name="element_section_active_header_background">#F8BBD0</color>
+    <color name="element_section_active_header_border">#C2185B</color>
+    <color name="element_section_default_background">#EDE7F6</color>
+    <color name="element_section_default_border">#7E57C2</color>
+    <color name="element_section_default_header_background">#D1C4E9</color>
+    <color name="element_section_default_header_border">#512DA8</color>
+    <color name="element_step_active_background">#757575</color>
+    <color name="element_step_active_border">#6b3b58</color>
+    <color name="element_step_default_background">#FFFFFF</color>
+    <color name="element_step_default_border">#6b3b58</color>
+    <color name="element_step_selected_background">#5a4770</color>
+
+    <color name="green">#66BB6A</color>
+
+    <color name="icons">#FFFFFF</color>
+
+    <color name="primary">#673AB7</color>
+    <color name="primary_dark">#512DA8</color>
+    <color name="primary_light">#D1C4E9</color>
+    <color name="primary_text">#212121</color>
+
+    <color name="red">#EF5350</color>
+
+    <color name="secondary_text">#757575</color>
+
+    <color name="text_light">#e7e7e7</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#727272</color>
+    <color name="text_shadow">#333</color>
+
+    <color name="white">#FFFFFF</color>
+</resources>

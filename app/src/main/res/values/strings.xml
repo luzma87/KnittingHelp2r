@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_name">KnittingHelp</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="notebook">Patterns list</string>
+    <string name="notebook_loading_patterns">Loading patterns… Please wait…</string>
+
+    <string name="pattern_created">Created %s</string>
+    <string name="pattern_updated">Last updated %s</string>
+
+    <string name="title_activity_main">Knit &amp; Crochet helper</string>
+    <string name="title_counters">Counters</string>
+    <string name="title_notebook">Notebook</string>
+    <string name="title_pattern">Pattern</string>
+    <string name="preferences">com.lzm.KnittingHelp</string>
+    <string name="separator_comma">Comma ,</string>
+    <string name="separator_period">Period .</string>
+    <string name="separator_parenthesis">Parenthesis ( )</string>
+    <string name="action_pattern_edit">Edit</string>
+    <string name="menu_notebook">Notebook</string>
+    <string name="menu_counters">Counters</string>
+    <string name="counter_name_placeholder">Counter name</string>
+</resources>

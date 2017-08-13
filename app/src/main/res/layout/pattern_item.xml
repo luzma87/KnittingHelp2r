@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="pattern"
+            type="com.lzm.KnittingHelp.model.Pattern" />
+
+        <variable
+            name="callback"
+            type="com.lzm.KnittingHelp.notebook.PatternClickCallback" />
+    </data>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/item_horizontal_margin"
+        android:layout_marginStart="@dimen/item_horizontal_margin"
+        android:minHeight="@dimen/product_item_min_height"
+        android:onClick="@{() ->  callback.onClick(pattern)}"
+        android:orientation="horizontal"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cardview_dark_background"
+                android:padding="@dimen/item_padding"
+                android:text="@{pattern.name}"
+                android:textAppearance="@android:style/TextAppearance.Material.Large.Inverse" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/item_padding"
+                android:text="@{@string/pattern_created(pattern.creationDate)}"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/item_padding"
+                android:text="@{@string/pattern_updated(pattern.updateDate)}"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</layout>
