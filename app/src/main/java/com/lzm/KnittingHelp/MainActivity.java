@@ -1,15 +1,11 @@
 package com.lzm.KnittingHelp;
 
-import android.app.Fragment;
 import android.arch.lifecycle.LifecycleFragment;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -27,6 +23,9 @@ import static com.lzm.KnittingHelp.enums.KnittingFragment.COUNTERS;
 import static com.lzm.KnittingHelp.enums.KnittingFragment.NOTEBOOK;
 import static com.lzm.KnittingHelp.enums.KnittingFragment.PATTERN;
 
+
+
+// <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
